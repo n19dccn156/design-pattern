@@ -8,7 +8,7 @@
 
 - Hãy tưởng tượng, Abstract factory như là một nhà máy lớn chứa nhiều nhà máy nhỏ, trong các nhà máy đó có những xưởng sản xuất, các xưởng đó tạo ra những sản phẩm khác nhau.
 
-**Structure of Abstract Factory Design Pattern**
+## Structure of Abstract Factory Design Pattern**
 
 `Super Factory`: Để Client khai báo super class.
 
