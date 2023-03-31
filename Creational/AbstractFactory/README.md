@@ -9,12 +9,18 @@
 - Hãy tưởng tượng, Abstract factory như là một nhà máy lớn chứa nhiều nhà máy nhỏ, trong các nhà máy đó có những xưởng sản xuất, các xưởng đó tạo ra những sản phẩm khác nhau.
 
 **Structure of Abstract Factory Design Pattern**
-`Super Factory`
-`Abstract Factory`
-`Concrete Factory`
-`Abstract Product`
-`Product`
-`Client`
+
+`Super Factory`: Để Client khai báo super class.
+
+`Abstract Factory` : Khai báo dạng interface hoặc abstract class chứa các phương thức để tạo ra các đối tượng abstract.
+
+`Concrete Factory` : Xây dựng, cài đặt các phương thức tạo các đối tượng cụ thể.
+
+`Abstract Product` : Khai báo dạng interface hoặc abstract class để định nghĩa đối tượng abstract.
+
+`Product` : Cài đặt của các đối tượng cụ thể, cài đặt các phương thức được quy định tại AbstractProduct.
+
+`Client` : là đối tượng sử dụng AbstractFactory và các AbstractProduct.
 
 ## Benefit
 - Các lợi ích của Factory Pattern cũng tương tự như Factory Method Pattern như: cung cấp hướng tiếp cận với Interface thay thì các implement, che giấu sự phức tạp của việc khởi tạo các đối tượng với người dùng (client), độc lập giữa việc khởi tạo đối tượng và hệ thống sử dụng, …
